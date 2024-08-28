@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* ShapeDemo Button */
+button.shape {
+  border-radius: 50px; /* Makes the button oval-shaped */
+  background-color: #4caf50;
+  color: white;
+}
+
+.demo {
+  display: flex;
+}
+
+/* ShapeSize Button */
+button.size {
+  width: 150px;
+  height: 50px;
+  background-color: #2196f3;
+  color: white;
+}
+
+/* ShapeColor Button */
+button.color {
+  background-color: #f44336;
+  color: white;
+}
